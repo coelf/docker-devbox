@@ -8,7 +8,12 @@ xrdp is provided to be compatible with the remote desktop of windows
 
 ### clone the repo
 ```
-git clone 
+git clone https://github.com/coelf/docker-devbox.git
+```
+
+### build container
+```
+docker build -t devbox .
 ```
 
 ### first  container launch
